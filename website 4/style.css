@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(187, 146, 119, 0.973); */
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    
+}
+li{
+    font-size: 10px;
+    display: inline-block;
+    padding: 0 30px;
+    color: white;
+}
+ul{
+    display: block;
+    list-style: none;
+}
+.nav{
+    margin: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+    font-size: 25px;
+    color: #000;
+}
+.text img{
+    position: absolute;
+    height: 100px;
+    width: auto;
+    bottom: -50%;
+    
+}
+.text{
+    color: #000;
+    position: absolute;
+    padding: 7% 60% 0 10%;  
+    margin-right: 10px;
+}
+.text h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.right{
+    position: absolute;
+    height: 70%;
+    width: 60%;
+    background: url('/website 4/shoe.png');
+    background-position: center;
+    background-size: cover;
+    right: 0%;
+    top: -4%;
+    z-index: -1;
+}
+.text2 h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.text2 p{
+    font-size: 18px;
+    font-weight: 300;
+    padding-right: 500px;
+}
+.text2 img{
+    position: absolute;
+    height: 304px;
+    width: 530px;
+    right: 15%;
+    top: -200%;
+    
+}
+.text2{
+    position: relative;
+    display: flex;
+}
+.maintext{
+    padding: 0 20%;
+}
+.features1{
+    padding-top: 10%;
+}
+.ggg{
+    padding-top: 25%;
+}
+.features2{
+   
+}
+.down{
+    height: 40%;
+    width: 100%;
+}

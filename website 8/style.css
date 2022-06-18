@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://wallpapercave.com/wp/wp8299815.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.india{
+    height: 12%;
+    width: 12.5%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    bottom: 11%;
+    left: 0%;
+    background-color: white;
+    border-radius: 70px;
+    animation: flag-div 2s  cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+    animation-delay: 2s;
+}
+@keyframes flag-div{
+    0%{
+        left: -20%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+@keyframes flag-div2{
+    0%{
+        right: -20%;
+    }
+    100%{
+        right: 0%;
+    }
+}
+.flag{
+    position: absolute;
+    height: 45px;
+    width: 60px;
+    animation: flag 1.5s ease 0.1s 1 both;
+    animation-delay: 2.4s;
+}
+@keyframes flag{
+    0%{
+    
+       transform: scale(-2); 
+    }
+    50%{
+        transform: scale(1.2);
+        transform: rotateY(360deg);
+    }
+    100%{
+        transform: scale(1.5);
+    }
+
+}
+.w-in{
+    height: 12%;
+    width: 12.5%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    bottom: 11%;
+    right: 0%;
+    background-color: white;
+    border-radius: 70px;
+    animation: flag-div2 2s  cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+    animation-delay: 2s;
+}
+.india,.w-in{
+    
+}
+#whitenav{
+    height: 12%;
+    width: 75%;
+    position: absolute;
+    overflow: hidden;
+    bottom: 11%;
+    left: 12.5%;
+    background-color: white;
+    border-radius: 70px;
+    animation: white-nav 1.5s 1s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+}
+@keyframes white-nav{
+    0%{
+        bottom: 20%;
+        display: none;
+        background-color: transparent;
+        
+
+    }
+    70%{
+        transform: scale(0);
+        
+    }
+    100%{
+        transform: scale(1);
+        bottom: 11%;
+        
+    }
+}
+
+
+#left{
+    height: 100%;
+    width: 300px;
+    left: 2.9%;
+    position: absolute;
+    animation: white-nav-left 3s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+    font-weight: 100;
+}
+
+@keyframes white-nav-left{
+    0%{
+        left: -50%;
+    }
+    100%{
+        left: 2.9%;
+        transform: rotateX(360deg);
+        
+    }
+}
+
+
+#right{
+    
+    height: 100%;
+    width: 300px;
+    animation: white-nav-right 4s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+    right: 2.9%;
+    position: absolute;
+}
+
+@keyframes white-nav-right{
+    0%{
+        right: -50%;
+    }
+    100%{
+        right: 2.9%;
+    }
+}
+
+#mid{
+    position: absolute;
+    top: 0;
+    height: 90%;
+    width: 19.93vw;
+    right: 35%;
+    position: absolute;
+    border-radius: 70px;   
+    margin-top: 3px;
+    animation: mid 4s 2s cubic-bezier(0, 2.35, 0.17, 0.37)  1  both;
+}
+@keyframes mid{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.top{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(21, 17, 235);
+    border-radius: 30px 30px 0px 0px;
+}
+.btm{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background-color: rgb(15, 15, 61);
+    border-radius: 0px 0px 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 50%;
+    color: white;
+    animation: btm 4s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+}
+
+
+@keyframes btm{
+    0%{
+        bottom: -60%;
+    }
+    
+    100%{
+        bottom: 0;
+    }
+}
+
+#r{
+    margin-top: 14px;
+    font-weight: 100;
+}
+#zero{
+    position: absolute;
+    right: 5px;
+    margin-top: -16%;
+    font-weight: 100;
+}
+#zero h3{
+    font-weight: 600;
+}
+#r h3{
+    font-weight: 700;
+}
+.right-top{
+    width: 100%;
+    height: 50%;
+   
+}
+.right-btm{
+    width: 100%;
+    height: 50%;
+   
+}
+.right-btm{
+    display: flex;
+    padding-top: px;
+}
+.circle{
+    border: 2px solid blue;
+    border: 30%;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    margin-left: 5px;
+    
+}
+.right-top span{
+    padding-left: 60%;
+}
+.right-top{
+    padding-top: 8px;
+}
+.top{
+    
+    height: 50%;
+    width: 100%;
+    background-color: rgb(17, 104, 235);
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    animation: top 4s 2s cubic-bezier(0.19, 1, 0.22, 1)  1  both;
+}
+
+@keyframes top{
+    0%{
+        top: -60%;
+    }
+    
+    100%{
+        top: 0;
+    }
+}
+
+.top span{
+    padding: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+    #whitenav{
+        height: 30vw;
+        width: 100vw;
+     
+        left: 0vw;
+    }
+    #left{
+        top: 30%;
+        width: 30vw;
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    #r h3 {
+        line-height: 3vh;
+    }
+    #zero{
+      top: 4vh;
+    }
+    #right{
+        top: 30%;
+        width: 30vw;
+        height: 40%;
+        padding-right: 20px;
+    }
+    #right .right-top span{
+        padding-left: 7%;
+    }
+    #right .right-top{
+       padding-bottom: 25px;
+    }
+    #right .right-btm .circle{
+        width: 19px; height: 23px; border-radius: 50%; margin-left: 2px;
+    }
+    #right{
+        font-size: 15px;
+        margin-top: 8px;
+    }
+    #mid{
+        position: absolute;
+        width: 50vw;
+        font-size: 12px;
+        height: 35%;
+        padding-bottom: 20px;
+        right: 25%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1642888621409-df3812ab67c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.move{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(34, 168, 209);
+    animation: move 1s ease 1 both;
+    
+}
+@keyframes move{
+
+    0%{ 
+        height: 5%;
+        top: 10%;
+        left: 0;
+        opacity: 0;
+    }
+
+    50%{
+        top: 5%;
+        height: 10%;
+        left: 40%;
+        opacity: 2;
+    }
+
+    75%{
+        
+        left: 40%;
+        height: 60%;
+        transform: rotateY(180deg);
+        width: 300px;
+        opacity: 2;
+    }
+
+    100%{
+        height: 60%;
+        top: 5%;
+        left: 100%;
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.main-white{
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    left: 2%;
+    bottom: 5%;
+}
+.main-white img{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    height: 450px;
+}
+.rahu_img{
+    background-color: black;
+}

@@ -1,0 +1,13 @@
+<%- include('./parshal/header') %>
+
+
+    <h1>compose</h1>
+    <form action="/compose" method="post">
+        <label for="newPostTital">Tital</label><br>
+        <input style="width: 80%;" id="newPostTital" name="newPostTital" type="text" placeholder="new post"><br>
+        <label for="newPostText">Text</label><br>
+        <textarea name="newPostText" style="display: block; width: 80%;height: 150px;" class="span6" rows="3"placeholder="What's up?" required></textarea>
+        <button style="margin-top: 10px; background-color: rgb(100, 100, 231);" type="submit">publish</button>
+    </form>
+
+    <%- include('./parshal/footer') %>

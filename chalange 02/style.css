@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+    /* margin: 0;
+    padding: 0%; */
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.main .h1 h1{
+    position: absolute;
+    top: 37%;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    font-weight: 300;
+    z-index: 1;
+    line-height: 110px;
+    font-family: 'Great Vibes', cursive;
+}
+.image{
+    position: absolute;
+    height: 40%;
+    width: 35%;
+    background-image: url(https://images.unsplash.com/photo-1613310023042-ad79320c00ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-size: cover;
+    bottom: 0;
+    left: 33%;
+}
+li{
+    font-weight: 700;
+    margin-top: 20px;
+}
+ul{
+    list-style: none;
+}
+.circle{
+    position: absolute;
+    height: 150px;
+    width:  150px;
+    background-color: red;
+    border-radius: 50%;
+    right: 10%;
+    top: 2%;
+    z-index: 5;
+    
+}
+.circle h2{
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+}
+.down{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 5%;
+    bottom: 5%;
+}
+.text2{
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    right: 25%;
+    bottom: 10%;
+    line-height: 15px;
+    font-weight: 100;
+}
+.side{
+    padding-left: 50px;
+}
+.braket{
+    position: absolute;
+    font-size: 15px;
+    top: 70%;
+    left: 25%;
+
+}
+.main .h1 span svg{
+    position: absolute;
+    height: 120px;
+    right: 36%;
+}

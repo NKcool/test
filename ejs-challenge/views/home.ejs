@@ -1,0 +1,13 @@
+
+ <%- include('./parshal/header') %>
+
+
+<h1>Home</h1>
+<p><%= homeStartingContent %></p>
+<%  posts.forEach(function(elem){%>
+    <h1><%= elem.tital %></h1>
+    <p><%= elem.text.substring(1, 100) + "..." %> <a href="/posts/<%- elem.tital %>">Read More</a> </p>
+    
+<%})%>
+
+<%- include('./parshal/footer') %>

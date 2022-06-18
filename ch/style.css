@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+}
+.main2{
+    left: 5%;
+    top: 10%;
+    height: 80%;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+    height: 100%;
+    width: 60%;
+    background-color: #F77372;
+}
+.left2{
+    
+    height: 100%;
+    width: 61.2%;
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://images.unsplash.com/photo-1533402031955-ea37361798c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+    background-size: cover;
+    background-position: center;
+}
+.left22{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.301);
+    height: 100%;
+    width: 61.2%;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    background-color: #1C8BA5;
+}
+.right2{
+    height: 100%;
+    width: 38.8%;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.cr{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.226);
+    position: relative;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+li{
+    padding-bottom: 8px;
+    
+}
+.nav{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.nav_right{
+    display: flex;
+}
+ul{
+    list-style: none;
+    color: white;
+    font-weight: 100;
+    font-size: 13px;
+}
+.rect{
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    right: 130px;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav2{
+    width:56%;
+    background-color: #ffffff;
+    position: absolute;
+    height: 50px;
+    z-index: 1;
+    top: 30%;
+    left: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    border-right: 1px solid rgba(0, 0, 0, 0.26);
+}
+.one h5{
+    font-weight: 200;
+    font-size: 11px;
+    padding-right: 50px;
+}
+.two{
+    padding-left: 20px;
+}
+.three{
+    padding-left: 40px;
+    background-color: #f77e7e;
+    border-right: none;
+}
+.scuba{
+    color: #ffffff;
+    position: absolute;
+    top: 55%;
+    z-index: 2;
+    left: 8%;
+    width: 40%;
+    
+}
+.rectt{
+    height: 35px;
+    width: 60px;
+    background-color: rgba(255, 255, 255, 0.247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recttt{
+    position: absolute;
+    bottom: 43px;
+    right:30%;
+    height: 35px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.082);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.recttt p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.scuba p{
+    padding-top: 10px;
+}
+
+.para{
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px 0px 0px 0px; 
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    height: 50%;
+    width: 35%;
+    right: 38.75%;
+    bottom: 0;
+}
+.para #p{
+    padding-top: 1000px;
+    padding: 0 50px;
+
+}
+.para2{
+    margin-top: 40px;
+    display: flex;
+    width: 310px;
+    font-size: 12px;
+    justify-content: space-around;
+}
+.para2 p {
+    padding-left: 5px;
+}
+.para2 div {
+    display: flex;
+}
+.card div{
+    height: 210px;
+    width: 160px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 10px;
+}
+.card{
+    position: absolute;
+    right: -12%;
+    display: flex;
+    bottom: 70px;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.boat{
+    position: absolute;
+    width: 150px;
+    z-index: 546446;
+    height: 50px;
+    left: 25%;
+    top: 8%;   
+    transform: rotate(250deg);
+}

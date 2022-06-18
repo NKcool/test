@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 200%;
+    width: 100%;
+}
+.main{
+    height: 150%;
+    width: 100%;
+}
+.main svg{
+    position: absolute;
+    transform: rotate(180deg);
+    height: 550px;
+}

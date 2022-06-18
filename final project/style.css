@@ -1,0 +1,514 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Nunito+Sans&family=Quicksand:wght@600&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+@font-face {
+    font-family: myFont;
+    src: url(fonts/MADE\ BON\ VOYAGE\ REGULAR\ PERSONAL\ USE.OTF);
+  }
+  
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.progress{
+    position: fixed;
+    z-index: 9999999999999999999999999999;
+    height: 10px;
+    width: 0%;
+    background-color: white;
+}
+
+
+#main {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.one {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15vw;
+    color: aliceblue;
+    height: 100vh;
+    background-color: grey;
+    font-weight: 100;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+}
+
+.nav i {
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+.nav h2 {
+    color: white;
+    font-size: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px;
+    z-index: 5555;
+}
+
+.two {
+    position: absolute;
+    top: 100vh;
+    overflow: hidden;
+    width: 100%;
+    background-color: rgb(51, 49, 49);
+    z-index: 5;
+
+    color: white;
+
+}
+
+.one h1 p {
+    font-size: 1vw;
+    position: absolute;
+    top: 4vw;
+    right: 22.04vw;
+}
+
+.one h1 p:nth-child(1) {
+    font-size: 1.5vw;
+    position: absolute;
+    top: 15vw;
+    right: 35.04vw;
+}
+
+.one h1 {
+    position: relative;
+    text-shadow: -2px 2px 22px rgba(0,0,0,0.43);
+}
+
+.one span {
+    position: absolute;
+    z-index: 3;
+}
+
+.txt {
+    width: 90%;
+
+}
+
+.one #img {
+    position: absolute;
+    height: 10vw;
+    transform: rotate(30deg);
+    z-index: 2;
+}
+
+#img2 {
+    position: absolute;
+    height: 35vw;
+    top: 60vh;
+    
+    transform: rotate(180deg);
+}
+
+.two h1:nth-child(1) {
+    margin-left: 13vw;
+
+}
+
+.text2 {
+    padding: 30px;
+    width: 100vw;
+}
+
+.text2 h1 {
+    font-weight: 100;
+    font-size: 3vw;
+}
+
+.sqr {
+    height: 40rem;
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B9AC9E;
+    margin: 0 auto;
+    position: relative;
+    /* overflow: hidden; */
+
+
+}
+
+
+.circle {
+    height: 80%;
+    width: 80%;
+    border-radius: 50%;
+    background-color: rgb(51, 49, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sqr p {
+    position: absolute;
+    font-size: 2.5vw;
+    justify-content: right;
+    top: 10px;
+    right: -15vw;
+    font-family: serif;
+}
+
+.circle2 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    background-color: rgb(249, 172, 113);
+    border-radius: 50%;
+    color: rgb(51, 49, 49);
+    display: flex;
+    justify-content: center;
+    font-size: 0px;
+    align-items: center;
+}
+
+.circle img:nth-child(1) {
+    position: absolute;
+    border-radius: 50%;
+    height: 80%;
+}
+
+.circle img:nth-child(2) {
+    position: absolute;
+    height: 60%;
+    border-radius: 50%;
+    border: 2px solid rgb(51, 49, 49);
+}
+
+.circle img:nth-child(3) {
+    position: absolute;
+    height: 40%;
+    border-radius: 50%;
+    border: 2px solid rgb(51, 49, 49);
+
+}
+
+.sqr h1 {
+    font-family: 'Dosis', sans-serif;
+    position: absolute;
+    left: 0;
+    font-size: 4vw;
+    bottom: -11vh;
+}
+
+.three {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    border-top: 2px solid #B9AC9E;
+    margin-top: 25vh;
+}
+.four {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(51, 49, 49);
+    color: white;
+    border-top: 2px solid #B9AC9E;
+    margin-top: 100vh;
+    position: relative;
+
+}
+.five {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-top: 2px solid #b9ac9e00;
+    position: relative;
+    
+}
+
+.txt3 h1 {
+    margin: 0;
+    font-size: 5vw;
+}
+
+.txt3 h1:nth-child(1) {
+    font-family: 'Dosis', sans-serif;
+    padding-left: 30px;
+    font-size: 5vw;
+}
+.txt3 p{
+    font-size: 1vw;
+}
+.txt3 {
+    padding: 50px 0px;
+    width: 70%;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imageSection {
+    position: absolute;
+    overflow: hidden;
+    right: 0%;
+    height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.circle2 h2{
+    opacity: 0;
+    margin-bottom: 16px;
+}
+
+.imageSection .baseImg {
+    position: absolute;
+    height: 80vh;
+    width: 20vw;
+    background-color: aliceblue;
+    bottom: -100%;
+    right: 40%;
+}
+.imgSeries{
+    position: absolute;
+    display: flex;
+    right: -174%;
+    bottom: 15%;
+}
+.imgSeries div{
+    height: 80vh;
+    width:  20vw;
+    background-color: aliceblue;
+    margin-right: 20px;
+}
+.four h1{
+    position: absolute;
+    font-family: myFont;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vw;
+    width: 100%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.animate{
+    opacity: 0;
+}
+.animateImageDiv{
+    height: 10vh;
+    width: 85%;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 5vh;
+}
+.animateImageDiv div{
+    height: 100%;
+    width: 10%;
+    background-color: azure;   
+}
+.animateImageDiv div:nth-child(2n){
+    background-color: black;
+}
+#footerr{
+    position: relative;
+    width: 100%;
+    color: white;
+}
+#text{
+    position: absolute;
+    left: 3vw;
+    bottom: 10vh;
+    font-size: 40px;
+}
+#footerr #right{
+    margin-right: 5%;
+    margin-top: 10%;
+   display: flex;
+   justify-content: flex-end;
+}
+#footerr #right a{
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;   
+}
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.imageDiv{
+    position: absolute;
+    height: 80vh;
+    left: 35%;
+    width: 30vw;
+    top: -20%;
+    transition: all ease 1s;
+    border-radius: 10px;
+}
+.four h1 span{
+    transition: all ease .4s;
+}
+.animate{
+    transition: all ease .2s;
+   
+}
+.menuDiv{
+    
+    font-family: 'Roboto', sans-serif;    
+    position: fixed;
+    right: 0vw;
+    top: -100%;
+    height: 100%;
+    width: 100%;
+    z-index: 4545454544545;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    display: flex;
+    overflow: hidden;
+    transition: all .2s ease;
+    
+    
+}
+.MenuText{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   
+}
+.menuDiv h1{
+    font-size: 5rem;
+    display: inline-block;
+}
+.MenuImg{
+    height: 70vh;
+    width: 36.737692872887585vw;
+    background-color: #fff;
+    margin-left: 5vw;
+    transition: all ease 1s;
+}
+
+
+.menuDiv i {
+    color: rgb(2, 2, 2);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.rightDiv{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    right: 0%;
+}
+
+
+@media screen and (max-width: 500px) {
+    .one h1{
+        font-size: 290px;
+    }
+    .one h1 span{
+        display: block;
+        line-height: 80px;
+    }
+    .sqr {
+        width: 25rem;
+        height: 25rem;
+    }
+
+   
+    .MenuText{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .menuDiv h1{
+        font-size: 3rem;
+        display: inline-block;
+    }
+    .animateImageDiv div{
+        height: 70%;
+        
+    }
+    .MenuImg{
+        margin: 0;
+    }
+    .menuDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .MenuImg{
+        height: 30vh;
+        width:300px;
+        background-color: #fff;
+        margin-top: 80px;
+    }
+    .menuDiv i {
+        font-size: 35px;
+    }
+    .imageDiv {
+        position: absolute;
+        height: 45vh;
+        left: 21%;
+        width: 63vw;
+        top: 128%;
+        transition: all ease 1s;
+        border-radius: 10px;
+    }
+    .imageSection .baseImg {
+       
+        height: 40vh;
+        width: 40vw;
+        
+    }
+    .imgSeries div{
+        height: 40vh;
+        width: 40vw;
+        
+    }
+}

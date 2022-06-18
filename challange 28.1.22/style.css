@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+    .top{
+        display: flex;
+        width: 100%;
+        height: 50%;
+        background-color: yellow;
+    }
+        .top-1{
+            position: relative;
+            height: 100%;
+            width: 25%;
+            background-image: url(https://images.unsplash.com/photo-1643193371987-42bac7f9a267?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+            background-position: center;
+            background-size: cover;
+        }
+            .music{
+                position: absolute;
+                top: 60%;
+                left: 110px;
+            }
+            .dark{
+                position: absolute;
+                height: 3px;
+                width: 30%;
+                background-color: rgba(0, 0, 0, 0.418);
+                right: 0.1%;
+            }
+            .music{
+               position: absolute;
+               height: 3px;
+               width: 50%;
+               background-color: white;
+               top: 80%;
+               left: 80px;
+            }
+            .top-1-content{
+                display: flex;
+                padding: 50px 20px
+            }
+            .top-1-content h3{
+                color: white;
+            }
+        .top-2{
+            position: relative;
+            height: 100%;
+            width: 50%;
+            background-color: rgb(202, 134, 89);
+            padding: 10px 300px 0px 10px;
+            padding-left: 50px;
+        }
+            .menu-img{
+                position: absolute;
+                top: 10%;
+                right: 5%;
+            }
+            .top-2 .virtical{
+                position: absolute;
+                color: white;
+                transform: rotate(90deg);
+                right:-50px;
+                top: 200px;
+                font-size:small;
+                letter-spacing: 3px;
+            }
+            .hori{
+                position: absolute;
+                transform: rotate(90deg);
+                top: 500px;
+                right: 50px;
+            }
+            .top-2-content div{
+                position: absolute;
+                top: 9%;
+                right: 10%;
+            }
+            .top-2-content h4{
+                padding-bottom: 60px;
+                padding-top: 20px;
+            }
+            .top-2-content img{
+                padding-bottom: 25px;
+            }
+            .top-2-content{
+                color: white;
+            }
+        .top-3{
+            height: 100%;
+            width: 25%;
+            background-color: rgb(253, 253, 253);
+        }
+            .top-3-content{
+                padding: 50% 25px 25px 0;
+            }
+            .top-3 img{
+                position: absolute;
+                right: 25px;
+                top: 25px;
+            }
+    .down{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 50%;
+        background-image: url(https://images.unsplash.com/photo-1643218099950-04cd2094356c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+        background-size: cover;
+        background-position: center;
+    }
+        .down .p{
+            position: absolute;
+            transform: rotate(90deg);
+            top: 200px;
+            right: 520px;
+            
+        }
+        .down-1{
+           
+            height: 100%;
+            width: 60%;
+            background-color: rgb(243, 243, 247);
+        }
+            .down-1{
+                padding-top: 55px;
+                padding-left: 75px;
+            }
+            .down-1 h1{
+                padding-top: 10px;
+                
+            }
+            .down-1-content{
+                position: absolute;
+                width: 200px;
+                top: 50%;
+                left: 50px;
+                padding: 25px 25px;
+            }
+            .down-1-content2{
+                position: absolute;
+                width: 200px;
+                top: 50%;
+                left: 250px;
+                padding: 25px 25px;
+            }
+            .icon{
+               position: absolute; 
+               transform: rotate(90deg);
+               top: 20%;
+               right: 550px;
+               padding-right: 10px;
+               
+               
+            }
+            .icon-down{
+                height: 20px;
+                width: 20px;
+            }
+        .down-2{
+            position: relative;
+            height: 80%;
+            width: 40%;
+            background-image:
+            linear-gradient(to bottom, rgba(52, 52, 54, 0.52), rgba(53, 52, 53, 0.73)),
+            url('https://images.unsplash.com/photo-1643277227040-1919439d29c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80');
+            background-position: center;
+            background-size: cover;
+            
+            
+        }
+        .down-2 .pp{
+            color: rgb(253, 252, 252);
+            margin-top: 230px;
+            padding-left: 25px;
+        }
+        .circle{
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height: 100px;
+            width: 100px;
+            background-color: rgba(255, 255, 255, 0.466);
+            border-radius: 50%;
+        }
+        .circle .div{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            height: 70px;
+            width: 70px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        .play-icon{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .down-2-content{
+            position: absolute;
+            transform: rotate(90deg);  
+            right: -70px;
+            top: 40%;
+            z-index: 555;
+            color: white;
+            
+        }
